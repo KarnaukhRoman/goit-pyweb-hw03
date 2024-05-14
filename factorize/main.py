@@ -31,11 +31,7 @@ def factorize_parallel(*args):
 
 
 if __name__ == '__main__':
-    nums = [12810654,
-            255651060,
-            99999106,
-            10651060,
-            ]
+    nums = [128, 255, 99999, 10651060]
     start_time = time.time()
     # Start factorize single
     factorize(*nums)
